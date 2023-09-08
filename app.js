@@ -35,7 +35,7 @@ story.addEventListener("click",function (dets) {
 
 var fill =document.querySelector(".ri-heart-line")
 var con = document.querySelector('#box-1')
-var love = document.querySelector('i')
+var love = document.querySelector('#bad')
 
 con.addEventListener("dblclick",function () {
     love.style.transform = 'translate(50%, -50%) scale(1)';

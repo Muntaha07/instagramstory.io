@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Gilroy';
 }
+body{
+    background-color: rgb(0, 208, 255);
+}
 
 #main{
     width: 100%;
@@ -15,6 +18,7 @@
 }
 
 #mobile{
+    margin-top: 58px;
     width: 320px;
     height: 750px;
     border: 2px solid black;
@@ -92,7 +96,7 @@ font-size: 20px;
 left: 86px;
 }
 
-#box-1 i{
+#box-1 #bad{
     color: white;
     font-size: 70px;
     position: absolute;
@@ -177,10 +181,10 @@ left: 86px;
     border-radius: 10px;
 }
 
-#search i{
+#search .lol{
     position: absolute;
     left: 7px;
-    bottom: 13px;
+    bottom: 15px;
     margin-left: 3px;
 }
 
